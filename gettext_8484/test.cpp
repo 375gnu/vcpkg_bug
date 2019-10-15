@@ -20,6 +20,6 @@ int main()
     std::cout << bind_textdomain_codeset("test", "UTF-8") << '\n';
     std::cout << textdomain("test") << '\n';
 
-    std::cout << bind_textdomain_codeset("test", "CP1251") << '\n';
+    std::cout << bind_textdomain_codeset("test", "GB2312") << '\n';
     std::cout << gettext("test\n");
 }
